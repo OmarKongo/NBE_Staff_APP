@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="eb597041efab4a278b6b250231f9db08" Name="Diagram1">
+        <EntityTypeShape EntityType="appModel.Comment" Width="1.5" PointX="5.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="appModel.Like" Width="1.5" PointX="8.25" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="appModel.Post" Width="1.5" PointX="3" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="appModel.User" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <AssociationConnector Association="appModel.FK__Comments__post_i__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="appModel.FK__Comments__user_i__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="appModel.FK__Like__post_id__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="appModel.FK__Like__user_id__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="appModel.FK__Posts__user_id__4AB81AF0" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
